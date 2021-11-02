@@ -36,7 +36,7 @@ const getIdealSleepHours = () => {
 }
 
 //calculate sleep debt
-const calculateSleepDept = () => {
+const calculateSleepDebt = () => {
   let actualSleepHours = getActualSleepHours();
   let idealSleepHours = getIdealSleepHours();
   if (actualSleepHours === idealSleepHours) {
@@ -46,4 +46,4 @@ const calculateSleepDept = () => {
   }
 }
 
-calculateSleepDept()
+calculateSleepDebt()

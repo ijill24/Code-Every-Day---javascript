@@ -8,3 +8,5 @@ A practice repository for learning to code.
 10.29.21  Plant Water Day Wednesday (function types)
 10.30.21  Rock Paper Scissors game, downloaded Visual Studio Code
 10.31.21  Sleep Debt calculation
+11.1.21  Scope debugging code practice
+11.2.21  Exercism 1 - Lasagna problem (explore new code platform)

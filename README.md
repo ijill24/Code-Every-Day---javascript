@@ -13,3 +13,4 @@ A practice repository for learning to code.
 11.3.21  javascript functions fundamentals practice
 11.4.21  javascript conditional
 11.8.21  grade calulation and string interpolation practice
+11.9.21  codecademy practice items, switch statements, function practice

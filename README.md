@@ -16,3 +16,4 @@ A practice repository for learning to code.
 11.9.21  codecademy practice items, switch statements, function practice
 11.10.21 date function and calculations, tip calculation, emoticons
 11.11.21  codecademy javascript 1 challenge - number guesser 
+11.14.21 array secret message codecademy - end of array unit

@@ -19,3 +19,5 @@ A practice repository for learning to code.
 11.14.21 array secret message codecademy - end of array unit
 11.16.21 nested loop example and practice; while loop
 11.17.21 loops and the break keyword
+11.21.21 whale speak problem
+11.22.21 for of loops

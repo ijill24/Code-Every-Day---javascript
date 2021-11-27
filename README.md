@@ -21,3 +21,4 @@ A practice repository for learning to code.
 11.17.21 loops and the break keyword
 11.21.21 whale speak problem
 11.22.21 for of loops
+11.26.21 this keyword example

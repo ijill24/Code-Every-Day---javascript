@@ -22,3 +22,5 @@ A practice repository for learning to code.
 11.21.21 whale speak problem
 11.22.21 for of loops
 11.26.21 this keyword example
+11.27.21 getters and setters practice
+11.30.21 Meal Maker Project using getters and setters

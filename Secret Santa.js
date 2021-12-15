@@ -1,20 +1,35 @@
 //define assignment array
-const givers = ['Michael Scott', 'Dwight Schrute', 'Jim Halpert', 'Pam Beesley', 'Jan Levinson', 'Kevin Malone', 'Toby Flenderson', 'Angela Martin', 'Andy Bernard', 'Stanley Hudson', 'Ryan Howard', 'Kelly Kapoor']
+let givers = ['Michael Scott', 'Dwight Schrute', 'Jim Halpert', 'Pam Beesley', 'Jan Levinson', 'Kevin Malone', 'Toby Flenderson', 'Angela Martin', 'Andy Bernard', 'Stanley Hudson', 'Ryan Howard', 'Kelly Kapoor']
 
-//define giver and receiver arrays which are randomized versions of the original
+//function to shuffle arrays
+const shuffle = arr1 => {
+    return arr1
+        .map((value) => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value)
+}
 
-let shuffledReceiver = givers
-  .map((value) => ({ value, sort: Math.random() }))
-  .sort((a, b) => a.sort - b.sort)
-  .map(({ value }) => value)
+//define receiver array which is randomized version of the original
+let shuffledReceiver = shuffle(givers);
 
-//check array function
+//code check - debugging
+// console.log(givers)
+// console.log(shuffledReceiver)
 
-console.log(shuffledReceiver)
+//compare two arrays
+// for(var i = 0; i < givers.length; i++) {
+//     if(givers[i] === shuffledReceiver[i]) {}
+        
 
 
-//compare array 1 and 2 to check for any matches at the same position, if so reshuffle.
+//create empty object and fill
+const secretSanta = {}
 
-//log results to the console.
-// for (const name of givers) {
-//     console.log(
+
+for (var i = 0; i < givers.length; i++) {
+    secretSanta[givers[i]] = shuffledReceiver[i];
+}
+
+console.log(secretSanta)
+
+

@@ -5,7 +5,7 @@ let overusedWords = ['really', 'very', 'basically'];
 let unnecessaryWords = ['extremely', 'literally', 'actually' ];
 
 let storyWords = story.split(' ')
-console.log(storyWords.length)
+console.log(`There are ${storyWords.length} words.`)
 // console.log(storyWords)
 let betterWords = storyWords.filter(word => {
   if (word !== unnecessaryWords) {
@@ -27,6 +27,6 @@ let count = storyWords.forEach(element => {
       return basicallyCount ++;
     }
 });
-console.log(reallyCount);
-console.log(veryCount);
-console.log(basicallyCount);
+console.log(`really # : ${reallyCount}`);
+console.log(`very # : ${veryCount}`);
+console.log(`basically # : ${basicallyCount}`);

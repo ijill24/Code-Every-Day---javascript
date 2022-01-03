@@ -27,3 +27,4 @@ A practice repository for learning to code.
 12.3.21 Team Stats project
 12.6.21 Function as parameter example
 12.8.21-12.14.21 Codecademy Secret Santa Challenge
+1.2.21 Codecademy Mini Linter iterators practice

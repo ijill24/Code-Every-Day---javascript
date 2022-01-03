@@ -12,8 +12,8 @@ let betterWords = storyWords.filter(word => {
     return word}
   }
 );
-// console.log(betterWords.length);
 
+//count overused words
 let reallyCount = 0;
 let veryCount = 0;
 let basicallyCount = 0;
@@ -30,3 +30,18 @@ let count = storyWords.forEach(element => {
 console.log(`really # : ${reallyCount}`);
 console.log(`very # : ${veryCount}`);
 console.log(`basically # : ${basicallyCount}`);
+
+//count how many sentences
+let punc = 0
+storyWords.forEach(element => {
+  if (element[element.length-1] === '.') {
+    return punc ++;
+  } else if (element[element.length-1] === '!') {
+    return punc ++;
+  }
+});
+console.log(`There are ${punc} sentences.`)
+
+//return as a one string
+let final = betterWords.join(" ");
+console.log(final)

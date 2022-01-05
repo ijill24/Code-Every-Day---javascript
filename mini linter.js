@@ -45,3 +45,12 @@ console.log(`There are ${punc} sentences.`)
 //return as a one string
 let final = betterWords.join(" ");
 console.log(final)
+
+
+// Ideas for future practice: 
+
+// For the overused words, remove it every other time it appears.
+
+// Write a function that finds the word that appears the greatest number of times.
+
+// Replaced overused words with something else.

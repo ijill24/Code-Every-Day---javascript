@@ -28,3 +28,5 @@ A practice repository for learning to code.
 12.6.21 Function as parameter example
 12.8.21-12.14.21 Codecademy Secret Santa Challenge
 1.2.21 Codecademy Mini Linter iterators practice
+1.4.21 Debugging Practice
+1.5.21 Random intermediate javascript practice code challenges

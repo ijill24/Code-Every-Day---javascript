@@ -30,3 +30,4 @@ A practice repository for learning to code.
 1.2.21 Codecademy Mini Linter iterators practice
 1.4.21 Debugging Practice
 1.5.21 Random intermediate javascript practice code challenges
+1.6.21 Random Intermediate js coding practice continued & map practice

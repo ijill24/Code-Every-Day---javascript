@@ -33,3 +33,5 @@ A practice repository for learning to code.
 1.6.22 Random Intermediate js coding practice continued & map practice
 1.11.22 Shout Greetings for loop
 1.12.22 Descending sort numerical array
+1.15.22 Anth API work and forgotten to upload work
+1.16.22 every object practice

@@ -35,3 +35,4 @@ A practice repository for learning to code.
 1.12.22 Descending sort numerical array
 1.15.22 Anth API work and forgotten to upload work
 1.16.22 every object practice
+1.18.22 introduction to classes in javascript

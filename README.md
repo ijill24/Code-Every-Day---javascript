@@ -37,3 +37,4 @@ A practice repository for learning to code.
 1.16.22 every object practice
 1.18.22 introduction to classes in javascript
 1.19.22 intro to inheritance
+1.30.22  inheritance continued up to inheritance V and static method added

@@ -39,3 +39,4 @@ A practice repository for learning to code.
 1.19.22 intro to inheritance
 1.30.22  inheritance continued up to inheritance V and static method added
 1.31.22 inheritance library project with class, setter, getter, method, etc application
+2.1.22 inheritance project number 2, schools etc.
